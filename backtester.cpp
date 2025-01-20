@@ -12,6 +12,8 @@
 #include <fstream>
 #include <filesystem>
 #include <unordered_map>
+
+//Made by Ali Bauyrzhan
 namespace fs = std::filesystem;
 using namespace std;
 size_t WriteCallback(char *ptr, size_t size, size_t nmemb, void *userdata) {
